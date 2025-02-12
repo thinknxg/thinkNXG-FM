@@ -8,23 +8,23 @@ from one_fm.api.doc_methods.shift_type import process_auto_attendance
 
 
 app_name = "one_fm"
-app_title = "One Fm"
+app_title = "thinkNXG Fm"
 app_publisher = "omar jaber"
-app_description = "One Facility Management is a leader in the fields of commercial automation and integrated security management systems providing the latest in products and services in these fields"
+app_description = "Facility Management is a leader in the fields of commercial automation and integrated security management systems providing the latest in products and services in these fields"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "omar.ja93@gmail.com"
 app_license = "MIT"
-app_logo_url = "/assets/one_fm/assets/img/logo-img/ONEFM_Identity_Gray.png"
+app_logo_url = "/assets/one_fm/assets/img/logo-img/thinkNXG-logo.jpg"
 # Includes in <head>
 # ------------------
 
 website_context = {
-	"favicon": "/assets/one_fm/assets/img/logo-img/ONEFM_Identity_Gray.png",
-	"splash_image": "/assets/one_fm/assets/img/logo-img/ONEFM_Identity_Gray.png",
+	"favicon": "/assets/one_fm/assets/img/logo-img/thinkNXG-logo.jpg",
+	"splash_image": "/assets/one_fm/assets/img/logo-img/thinkNXG-logo.jpg",
 }
 
-email_brand_image = "/assets/one_fm/assets/img/logo-img/ONEFM_Identity_Gray.png"
+email_brand_image = "/assets/one_fm/assets/img/logo-img/thinkNXG-logo.jpg"
 
 # include js, css files in header of desk.html
 app_include_css = "/assets/one_fm/css/one_fm.css"
