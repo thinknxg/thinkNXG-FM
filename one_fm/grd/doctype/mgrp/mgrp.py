@@ -228,7 +228,7 @@ def get_signatory_user_for_mgrp(company_name,user_name):
 		user: Authorized Signatory user id to notify him later on
 		signature: Authorized Electronic signature
 	"""
-	parent = frappe.db.get_value('PIFSS Authorized Signatory',{'company_name_arabic':company_name},['name'])
+	parent = frappe.db.get_value('PIFSS Authorized Signatory',['name'])
 	user,signature = frappe.db.get_value('PAM Authorized Signatory Table',{'parent':parent,'authorized_signatory_name_arabic':user_name},['user','signature'])
 	return user,signature
 

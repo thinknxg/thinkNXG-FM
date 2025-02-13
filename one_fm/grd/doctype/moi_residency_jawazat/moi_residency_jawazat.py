@@ -15,7 +15,7 @@ from one_fm.utils import is_scheduler_emails_enabled
 
 class MOIResidencyJawazat(Document):
     company = frappe.db.get_value("Company", frappe.defaults.get_global_default('company'), 
-            ['phone_no', 'email', 'company_name_arabic'], as_dict=1)
+            ['phone_no', 'email'], as_dict=1)
     
     def before_insert(self):
         self.cancel_existing()
